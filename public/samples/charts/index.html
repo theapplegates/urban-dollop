@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Charts &middot; Congo</title>
+    <meta name="title" content="Charts &middot; Congo" />
+  
+  
+  
+  
+  
+  <link rel="canonical" href="/samples/charts/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.7e491e1558c65b086695e635e9db249d5315361bfee4f80437e52c6de4349e574ca37dc7016a03592834743207253d95b1e3f765baf352229af5e5a4de412a64.css"
+    integrity="sha512-fkkeFVjGWwhmleY16dsknVMVNhv&#43;5PgEN&#43;UsbeQ0nldMo33HAWoDWSg0dDIHJT2VseP3ZbrzUiKa9eWk3kEqZA=="
+  />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.dbca9e2200cf929a23b55442f2ff09361b8d5290147ff1407f89ed3839f0fea13db4e94f5ae6bf2f3de10d322b4bede74b578455e9cc7d5565314d914602c974.js" integrity="sha512-28qeIgDPkpojtVRC8v8JNhuNUpAUf/FAf4ntODnw/qE9tOlPWua/Lz3hDTIrS&#43;3nS1eEVenMfVVlMU2RRgLJdA=="></script>
+  
+  
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Charts" />
+<meta property="og:description" content="Guide to Chart.js usage in Congo" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/samples/charts/" /><meta property="article:section" content="samples" />
+<meta property="article:published_time" content="2019-03-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-03-06T00:00:00+00:00" /><meta property="og:site_name" content="Congo" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Charts"/>
+<meta name="twitter:description" content="Guide to Chart.js usage in Congo"/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Content Samples",
+    "name": "Charts",
+    "headline": "Charts",
+    "description": "Guide to Chart.js usage in Congo",
+    "abstract": "Congo includes Chart.js for powerful charts and data visualisations.",
+    "inLanguage": "en",
+    "url" : "\/samples\/charts\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2019",
+    "dateCreated": "2019-03-06T00:00:00\u002b00:00",
+    "datePublished": "2019-03-06T00:00:00\u002b00:00",
+    
+    "dateModified": "2019-03-06T00:00:00\u002b00:00",
+    
+    "keywords": ["chart","sample","graph","shortcodes"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "283"
+  }]
+  </script>
+
+
+  
+  
+    <meta name="generator" content="Hugo 0.92.0" />
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  <script defer type="text/javascript" src="/js/chart.bundle.45b978f0ad1efeb2ceb65d4bf5fb2601a039a5f623717d7f772dd6e1fa8e2f2075dc9c1a9a57616ddf337efdf734afb96d6c4ce45508707a8156202ae684e37d.js" integrity="sha512-Rbl48K0e/rLOtl1L9fsmAaA5pfYjcX1/dy3W4fqOLyB13Jwamldhbd8zfv33NK&#43;5bWxM5FUIcHqBViAq5oTjfQ=="></script>
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 dark:bg-neutral-600 focus:translate-y-0"
+        href="#main-content"
+        ><span class="font-bold ltr:pr-2 rtl:pl-2 text-primary-600 dark:text-primary-400"
+          >&darr;</span
+        >Skip to main content</a
+      >
+    </div><header
+  class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral"
+>
+  
+  <div>
+    
+      <a
+        class="hover:underline hover:decoration-primary-500 hover:decoration-2 hover:underline-offset-2"
+        rel="me"
+        href="/"
+        >Congo</a
+      >
+    
+
+  </div>
+  
+  
+    <nav>
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+          <li
+            class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+            <a
+              class="hover:underline hover:decoration-primary-500 hover:decoration-2 hover:underline-offset-2"
+              href=""
+              title=""
+              >Blog</a
+            >
+          </li>
+        
+          <li
+            class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+            <a
+              class="hover:underline hover:decoration-primary-500 hover:decoration-2 hover:underline-offset-2"
+              href="/categories/"
+              title="Categories"
+              >Categories</a
+            >
+          </li>
+        
+          <li
+            class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+            <a
+              class="hover:underline hover:decoration-primary-500 hover:decoration-2 hover:underline-offset-2"
+              href="/tags/"
+              title="Tags"
+              >Tags</a
+            >
+          </li>
+        
+        
+      </ul>
+    </nav>
+  
+</header>
+<main id="main-content" class="relative grow">
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Charts
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2019-03-06 00:00:00 &#43;0000 UTC">6 March 2019</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose lg:flex-row dark:prose-invert">
+      
+      <div class="min-w-0 min-h-0 max-w-prose">
+        <p>Congo includes support for Chart.js using the <code>chart</code> shortcode. Simply wrap the chart markup within the shortcode. Congo automatically themes charts to match the configured <code>colorScheme</code> parameter, however the colours can be customised using normal Chart.js syntax.</p>
+<p>Refer to the <a href="/docs/shortcodes/#chart">chart shortcode</a> docs for more details.</p>
+<p>The examples below are a small selection taken from the <a href="https://www.chartjs.org/docs/latest/samples">official Chart.js docs</a>. You can also <a href="https://raw.githubusercontent.com/jpanther/congo/dev/exampleSite/content/samples/charts.md">view the page source</a> on GitHub to see the markup.</p>
+<h2 id="bar-chart" class="relative group">Bar chart <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#bar-chart" aria-label="Anchor">#</a></span></h2>
+<!-- prettier-ignore-start -->
+<div class="chart">
+  
+  <canvas id="619475238"></canvas>
+  <script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", (event) => {
+      const ctx = document.getElementById("619475238");
+      const chart = new Chart(ctx, {
+        
+type: 'bar',
+data: {
+  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [65, 59, 80, 81, 56, 55, 40],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(255, 159, 64, 0.2)',
+      'rgba(255, 205, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(201, 203, 207, 0.2)'
+    ],
+    borderColor: [
+      'rgb(255, 99, 132)',
+      'rgb(255, 159, 64)',
+      'rgb(255, 205, 86)',
+      'rgb(75, 192, 192)',
+      'rgb(54, 162, 235)',
+      'rgb(153, 102, 255)',
+      'rgb(201, 203, 207)'
+    ],
+    borderWidth: 1
+  }]
+}
+
+      });
+    });
+  </script>
+</div>
+
+<!-- prettier-ignore-end -->
+<h2 id="line-chart" class="relative group">Line chart <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#line-chart" aria-label="Anchor">#</a></span></h2>
+<!-- prettier-ignore-start -->
+<div class="chart">
+  
+  <canvas id="751824396"></canvas>
+  <script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", (event) => {
+      const ctx = document.getElementById("751824396");
+      const chart = new Chart(ctx, {
+        
+type: 'line',
+data: {
+  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [65, 59, 80, 81, 56, 55, 40],
+    tension: 0.2
+  }]
+}
+
+      });
+    });
+  </script>
+</div>
+
+<!-- prettier-ignore-end -->
+<h2 id="doughnut-chart" class="relative group">Doughnut chart <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#doughnut-chart" aria-label="Anchor">#</a></span></h2>
+<!-- prettier-ignore-start -->
+<div class="chart">
+  
+  <canvas id="231674958"></canvas>
+  <script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", (event) => {
+      const ctx = document.getElementById("231674958");
+      const chart = new Chart(ctx, {
+        
+type: 'doughnut',
+data: {
+  labels: ['Red', 'Blue', 'Yellow'],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [300, 50, 100],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.7)',
+      'rgba(54, 162, 235, 0.7)',
+      'rgba(255, 205, 86, 0.7)'
+    ],
+    borderWidth: 0,
+    hoverOffset: 4
+  }]
+}
+
+      });
+    });
+  </script>
+</div>
+
+<!-- prettier-ignore-end -->
+
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose">
+      
+  <div class="flex">
+    
+    <div class="place-self-center">
+      
+      
+      <div class="text-2xl sm:text-lg">
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group" href="/samples/diagrams-flowcharts/">
+              <span
+                class="mr-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Diagrams and Flowcharts</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2019-03-06 00:00:00 &#43;0000 UTC">6 March 2019</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group" href="/samples/mathematical-notation/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Mathematical notation</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2019-03-08 00:00:00 &#43;0000 UTC">8 March 2019</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    </footer>
+    
+  </article>
+
+      
+        <div
+          class="absolute top-[110vh] ltr:right-0 rtl:left-0 w-12 pointer-events-none bottom-[-5.5rem]"
+        >
+          <a
+            href="#the-top"
+            class="w-12 h-12 sticky pointer-events-auto top-[calc(100vh-5rem)] bg-neutral/50 dark:bg-neutral-800/50 backdrop-blur rounded-full text-xl flex items-center justify-center text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      
+    </main>
+    <footer class="py-10">
+  
+  
+  <div class="flex justify-between">
+    <div>
+      
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2022
+          
+      </p>
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    
+    
+  </div>
+  
+  
+</footer>
+</body>
+</html>
